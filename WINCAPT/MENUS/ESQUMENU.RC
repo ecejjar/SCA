@@ -1,0 +1,99 @@
+ESQUEMA MENU 
+BEGIN
+	POPUP "&Esquema"
+	BEGIN
+		MENUITEM "&Nuevo...", 27
+		MENUITEM "&Abrir...", 29
+		MENUITEM "&Guardar", 30
+		MENUITEM "Guardar &como...", 56
+		MENUITEM "Ce&rrar", 57
+		MENUITEM SEPARATOR
+		POPUP "&Formato de Impresión"
+		BEGIN
+			MENUITEM "&Grande", 25
+			MENUITEM "&Pequeño", 26
+		END
+
+		MENUITEM "&Imprimir...", 50
+		MENUITEM SEPARATOR
+		MENUITEM "&Salir", 28
+	END
+
+	POPUP "&Coger"
+	BEGIN
+		MENUITEM "&Puntero", 39
+		MENUITEM "&Resistencia", 1
+		MENUITEM "&Condensador", 2
+		MENUITEM "&Bobina", 3
+		POPUP "&Diodo"
+		BEGIN
+			MENUITEM "&Normal", 40
+			MENUITEM "&Zener", 41
+			MENUITEM "&Varicap", 42
+		END
+
+		POPUP "&Transistor"
+		BEGIN
+			MENUITEM "&Bipolar", 31
+			MENUITEM "&JFET", 32
+			MENUITEM "&MOSFET", 33
+		END
+
+		MENUITEM "B&atería", 12
+		POPUP "&Generador"
+		BEGIN
+			MENUITEM "&V", 10
+			MENUITEM "&I", 11
+			MENUITEM "V &dep. de V", 6
+			MENUITEM "V d&ep. de I", 7
+			MENUITEM "I de&p. de V", 8
+			MENUITEM "I dep&. de I", 9
+		END
+
+		MENUITEM "&Voltimetro", 17
+		MENUITEM "A&mperímetro", 18
+		MENUITEM SEPARATOR
+		MENUITEM "&Horizontal", 35, CHECKED
+		MENUITEM "&Vertical", 36, CHECKED
+		MENUITEM "&Espejo", 37, CHECKED
+		MENUITEM "Re&jilla", 38, CHECKED
+	END
+
+	POPUP "&Dibujar"
+	BEGIN
+		MENUITEM "&Cable", 13
+		MENUITEM "&Nudo", 14
+		MENUITEM "&Masa", 15
+		MENUITEM "C&uadripolo", 16
+	END
+
+	POPUP "E&liminar"
+	BEGIN
+		MENUITEM "&Objeto", 19
+		MENUITEM "&Grupo de Objetos", 20
+	END
+
+	POPUP "&Grupos"
+	BEGIN
+		MENUITEM "&Mover", 21
+		MENUITEM "&Desplazar", 22
+		MENUITEM "&Grabar", 23
+		MENUITEM "&Leer", 24
+	END
+
+	POPUP "&Ventana"
+	BEGIN
+		MENUITEM "&Anterior", 51
+		MENUITEM "&Siguiente", 52
+		MENUITEM "&Mosaico", 53
+		MENUITEM "&Cascada", 54
+		MENUITEM "&Recolocar", 58
+	END
+
+	POPUP "&Ayuda"
+	BEGIN
+		MENUITEM "&Indice", 55
+		MENUITEM "&Acerca de...", 34
+	END
+
+END

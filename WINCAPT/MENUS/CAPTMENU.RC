@@ -1,0 +1,17 @@
+CAPTURADOR MENU 
+BEGIN
+	POPUP "&Ventana"
+	BEGIN
+		MENUITEM "&Nueva...", 27
+		MENUITEM "&Abrir...", 29
+		MENUITEM SEPARATOR
+		MENUITEM "&Salir", 28
+	END
+
+	POPUP "&Ayuda"
+	BEGIN
+		MENUITEM "&Indice", 55
+		MENUITEM "&Acerca de...", 34
+	END
+
+END

@@ -1,0 +1,24 @@
+COMPILAR  MENU LOADONCALL MOVEABLE PURE DISCARDABLE 
+BEGIN
+  POPUP "&Circuito"
+  BEGIN
+    MenuItem  "&Abrir...", 1
+    POPUP "&Ver"
+    BEGIN
+      MenuItem  "&Fuente", 8
+      MenuItem  "&Compilado", 9
+    END
+    MenuItem  SEPARATOR
+    MenuItem  "&Salir", 6
+  END
+  POPUP "Co&mpilacion"
+  BEGIN
+    MenuItem  "&Compilar...", 3
+    MenuItem  "&Depurar", 4
+  END
+  POPUP "&Ayuda"
+  BEGIN
+    MenuItem  "&Indice", 7
+    MenuItem  "&Acerca del Compilador...", 5
+  END
+END

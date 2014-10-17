@@ -1,0 +1,101 @@
+#include <windows.h>
+#include <wincapt.h>
+
+capturador ICON   c:\borlandc\proyecto\iconos\wincapt.ico
+capturador BITMAP DISCARDABLE c:\borlandc\proyecto\bitmaps\wincapt.bmp
+
+capturador MENU 
+BEGIN
+	POPUP "&Circuito"
+	BEGIN
+		MENUITEM "&Nuevo", IDM_EMPEZAR
+		MENUITEM "&Abrir...", IDM_ACTUAL
+		MENUITEM "&Guardar...", IDM_GUARDAR
+		MENUITEM SEPARATOR
+		MENUITEM "&Salir", IDM_TERMINAR
+	END
+
+	POPUP "Co&ger"
+	BEGIN
+		MENUITEM "&Puntero", IDM_PUNTERO
+		MENUITEM "&Resistencia", IDM_RESIST
+		MENUITEM "&Condensador", IDM_CONDENS
+		MENUITEM "&Bobina", IDM_BOBINA
+		POPUP "&Diodo"
+		BEGIN
+			MENUITEM "&Normal", IDM_DIODO
+			MENUITEM "&Zener", IDM_DIODOZ
+			MENUITEM "&Varicap", IDM_DIODOV
+		END
+
+		POPUP "&Transistor"
+		BEGIN
+			MENUITEM "&Bipolar", IDM_BIPOLAR
+			MENUITEM "&JFET", IDM_JFET
+			MENUITEM "&MOSFET", IDM_MOSFET
+		END
+
+		MENUITEM "B&atería", IDM_BATERIA
+		POPUP "&Generador"
+		BEGIN
+			MENUITEM "&V", IDM_GENV
+			MENUITEM "&I", IDM_GENI
+			MENUITEM "V &dep. de V", IDM_GENVDEPV
+			MENUITEM "V d&ep. de I", IDM_GENVDEPI
+			MENUITEM "I de&p. de V", IDM_GENIDEPV
+			MENUITEM "I dep&. de I", IDM_GENIDEPI
+		END
+
+		MENUITEM "&Voltimetro", IDM_VOLT
+		MENUITEM "A&mperímetro", IDM_AMPER
+		MENUITEM SEPARATOR
+		MENUITEM "&Horizontal", IDM_HORIZ, CHECKED
+		MENUITEM "&Vertical", IDM_VERT, CHECKED
+		MENUITEM "&Espejo", IDM_ESPEJO, CHECKED
+		MENUITEM "Re&jilla", IDM_REJILLA, CHECKED
+	END
+
+	POPUP "Biblio&teca"
+	BEGIN
+		MENUITEM "&Crear Biblioteca...", IDM_CREABIBL
+		MENUITEM "&Eliminar Biblioteca...", IDM_SUPRBIBL
+		MENUITEM SEPARATOR
+		MENUITEM "&Añadir símbolo...", IDM_ADDSYM
+		MENUITEM "&Buscar símbolo...", IDM_BUSCSYM
+		MENUITEM "&Listar símbolos...", IDM_LISTSYM
+	END
+
+	POPUP "&Dibujar"
+	BEGIN
+		MENUITEM "&Cable", IDM_CABLE
+		MENUITEM "&Nudo", IDM_NUDO
+		MENUITEM "&Masa", IDM_MASA
+		MENUITEM "C&uadripolo", IDM_CUAD
+	END
+
+	POPUP "&Eliminar"
+	BEGIN
+		MENUITEM "&Objeto", IDM_OBJETO
+		MENUITEM "&Bloque", IDM_BLOQUE
+	END
+
+	POPUP "&Bloques"
+	BEGIN
+		MENUITEM "&Mover", IDM_MOVER
+		MENUITEM "&Desplazar", IDM_DESPLAZ
+		MENUITEM "&Grabar", IDM_OTRO
+		MENUITEM "&Leer", IDM_LEER
+	END
+
+	POPUP "&Impresora"
+	BEGIN
+		MENUITEM "&Grande", IDM_GRANDE
+		MENUITEM "&Pequeño", IDM_PEQUENO
+	END
+
+	POPUP "&Ayuda"
+	BEGIN
+		MENUITEM "&Acerca de...", IDM_ACERCA
+	END
+
+END

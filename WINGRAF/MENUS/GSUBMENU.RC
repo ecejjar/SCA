@@ -1,0 +1,19 @@
+GRAFICA  MENU LOADONCALL MOVEABLE PURE DISCARDABLE 
+BEGIN
+  POPUP "&Gráfica"
+  BEGIN
+    MenuItem  "&Parámetros...", IDM_PARAMETROS
+    MenuItem  "&Escalas...", IDM_ESCALAS
+    MenuItem  "&Colores...", IDM_COLORES
+  END
+  POPUP "&Operaciones"
+  BEGIN
+    MenuItem  "&Derivar", IDM_DERIVAR
+    MenuItem  "&Integrar", IDM_INTEGRAR
+  END
+  POPUP "&Dominio"
+  BEGIN
+    MenuItem  "&Tiempo", IDM_TIEMPO
+    MenuItem  "&Frecuencia", IDM_FRECUENCIA
+  END
+END

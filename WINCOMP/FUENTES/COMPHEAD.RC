@@ -1,0 +1,6 @@
+#include "c:\borlandc\include\windows.h"
+#include "c:\borlandc\include\wincomp.h"
+
+compilar ICON   wincomp.ico
+compilar BITMAP wincomp.bmp
+

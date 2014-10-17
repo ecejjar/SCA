@@ -1,0 +1,19 @@
+RESOLVER  MENU LOADONCALL MOVEABLE PURE DISCARDABLE 
+BEGIN
+  POPUP "&Circuito"
+  BEGIN
+    MenuItem  "&Abrir...", IDM_ABRIR
+    MenuItem  "&Ver", IDM_VER, GRAYED 
+    MenuItem  SEPARATOR
+    MenuItem  "&Salir", IDM_SALIR
+  END
+  POPUP "&Resolver"
+  BEGIN
+    MenuItem  "&Empezar", IDM_RESOLVER, GRAYED 
+  END
+  POPUP "&Ayuda"
+  BEGIN
+    MenuItem  "&Indice", IDM_AYUDA
+    MenuItem  "&Acerca de...", IDM_ACERCA
+  END
+END

@@ -1,0 +1,69 @@
+BLOQUES MENU 
+BEGIN
+	POPUP "&Diagrama"
+	BEGIN
+		MENUITEM "&Nuevo...", 27
+		MENUITEM "&Abrir...", 29
+		MENUITEM "&Guardar", 30
+		MENUITEM "Guardar &como...", 56
+		MENUITEM "Ce&rrar", 57
+		MENUITEM SEPARATOR
+		POPUP "&Formato de Impresión"
+		BEGIN
+			MENUITEM "&Grande", 25
+			MENUITEM "&Pequeño", 26
+		END
+
+		MENUITEM "&Imprimir...", 50
+		MENUITEM SEPARATOR
+		MENUITEM "&Salir", 28
+	END
+
+	POPUP "&Coger"
+	BEGIN
+		MENUITEM "&Puntero", 39
+		MENUITEM SEPARATOR
+		MENUITEM "&Horizontal", 35
+		MENUITEM "&Vertical", 36
+		MENUITEM "&Espejo", 37
+		MENUITEM "&Rejilla", 38
+	END
+
+	POPUP "D&ibujar"
+	BEGIN
+		MENUITEM "&Bloque", 61
+		MENUITEM "&Cable", 13
+		MENUITEM "&Texto", 59
+		MENUITEM "&Puerto", 60
+	END
+
+	POPUP "&Eliminar"
+	BEGIN
+		MENUITEM "&Objeto", 19
+		MENUITEM "&Grupo de Objetos", 20
+	END
+
+	POPUP "&Grupos"
+	BEGIN
+		MENUITEM "&Mover", 21
+		MENUITEM "&Desplazar", 22
+		MENUITEM "&Grabar", 23
+		MENUITEM "&Leer", 24
+	END
+
+	POPUP "&Ventana"
+	BEGIN
+		MENUITEM "&Anterior", 51
+		MENUITEM "&Siguiente", 52
+		MENUITEM "&Mosaico", 53
+		MENUITEM "&Cascada", 54
+		MENUITEM "&Recolocar", 58
+	END
+
+	POPUP "&Ayuda"
+	BEGIN
+		MENUITEM "&Indice", 55
+		MENUITEM "&Acerca de...", 34
+	END
+
+END

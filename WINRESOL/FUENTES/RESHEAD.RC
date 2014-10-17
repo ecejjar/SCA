@@ -1,0 +1,7 @@
+#include "C:\BORLANDC\INCLUDE\windows.h"
+#include "C:\BORLANDC\INCLUDE\winresol.h"
+
+resolver ICON   winresol.ico
+resolver BITMAP DISCARDABLE winresol.bmp
+
+

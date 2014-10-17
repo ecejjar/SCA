@@ -1,0 +1,46 @@
+BIBLIOTECA MENU 
+BEGIN
+	POPUP "&Biblioteca"
+	BEGIN
+		MENUITEM "&Nueva...", 27
+		MENUITEM "&Abrir...", 29
+		MENUITEM "&Guardar", 30
+		MENUITEM "G&uardar como...", 56
+		MENUITEM "Ce&rrar", 57
+		MENUITEM "&Eliminar...", 48
+		MENUITEM SEPARATOR
+		POPUP "&Formato de Impresión"
+		BEGIN
+			MENUITEM "&Grande", 25
+			MENUITEM "&Pequeño", 26
+		END
+
+		MENUITEM "&Imprimir...", 50
+		MENUITEM SEPARATOR
+		MENUITEM "&Salir", 28
+	END
+
+	POPUP "&Símbolo"
+	BEGIN
+		MENUITEM "&Añadir símbolo...", 43
+		MENUITEM "&Buscar símbolo...", 45
+		MENUITEM "&Listar símbolos...", 46
+		MENUITEM "Eliminar &Símbolo", 50
+	END
+
+	POPUP "&Ventana"
+	BEGIN
+		MENUITEM "&Anterior", 51
+		MENUITEM "&Siguiente", 52
+		MENUITEM "&Mosaico", 53
+		MENUITEM "&Cascada", 54
+		MENUITEM "&Recolocar", 58
+	END
+
+	POPUP "&Ayuda"
+	BEGIN
+		MENUITEM "&Indice", 55
+		MENUITEM "&Acerca de...", 34
+	END
+
+END

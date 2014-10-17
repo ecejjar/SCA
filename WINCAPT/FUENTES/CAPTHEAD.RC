@@ -1,0 +1,7 @@
+#include "C:\BORLANDC\INCLUDE\windows.h"
+#include "wincapt.h"
+
+capturador ICON   wincapt.ico
+capturador BITMAP DISCARDABLE wincapt.bmp
+
+

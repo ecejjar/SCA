@@ -1,0 +1,7 @@
+#include "c:\borlandc\include\windows.h"
+#include "c:\borlandc\include\wingraf.h"
+
+graficos ICON   wingraf.ico
+graficos BITMAP wingraf.bmp
+grafica  ICON   grafgraf.ico
+grafica  CURSOR grafgraf.cur
